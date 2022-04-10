@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "tinos";
+  src: url('Tinos\ Powerline.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "anonym";
+  src: url('Anonymice\ Powerline.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "ubuntu";
+  src: url('Ubuntu\ Powerline.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "prolight";
+  src: url('ProLight\ Powerline.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "monoid2";
+  src: url('Monoid-Italic.ttf') format('truetype');
+}
+
+.home{
+  background-image: url(../banner.png);
+  width: 1920px;
+  height: 660px;
+}
+
+.container{
+  background-color: rgb(0, 0, 0);
+  opacity: 0.9  ;
+}
+
+.code-text {
+  font-family: ubuntu; /*tinos, anonym, ubuntu, prolight, monoid2 */
+  font-size: 40px;
+  padding-top: 2.5em;
+  padding-left: 3em;
+  padding-right: 3em;
+  padding-bottom: 2.5em;
+  position: relative;
+}
+
+.code-text .class{
+  color: #1858b9;
+  font-family: tinos;
+}
+
+p, p.tap, p.tap2 {
+    color: rgb(255, 255, 255);
+}
+
+.tap {
+    padding-left: 70px;
+}
+
+  .code-text p:nth-child(1) {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    /*Animation*/
+    animation: type 0.5s steps(1, end);
+    -webkit-animation: type 0.5s steps(1, end);
+    -moz-animation: type 0.5s steps(1, end);
+    -o-animation: type 0.5s steps(1, end);
+    /*Delay*/
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 0.5s;
+    /*Fill mode*/
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .code-text p:nth-child(2) {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    /*Animation*/
+    animation: type 4s steps(500, end);
+    -webkit-animation: type 4s steps(500, end);
+    -moz-animation: type 4s steps(500, end);
+    -o-animation: type 4s steps(500, end);
+    /*Delay*/
+    animation-delay: 1.5s;
+    -webkit-animation-delay: 1.5s;
+    /*Fill mode*/
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .code-text p:nth-child(3) {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    /*Animation*/
+    animation: type 5s steps(500, end);
+    -webkit-animation: type 5s steps(500, end);
+    -moz-animation: type 5s steps(500, end);
+    -o-animation: type 5s steps(500, end);
+    /*Delay*/
+    animation-delay: 3.5s;
+    -webkit-animation-delay: 3.5s;
+    /*Fill mode*/
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .code-text p:nth-child(4) {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    /*Animation*/
+    animation: type 5s steps(500, end);
+    -webkit-animation: type 5s steps(500, end);
+    -moz-animation: type 5s steps(500, end);
+    -o-animation: type 5s steps(500, end);
+    /*Delay*/
+    animation-delay: 4.5s;
+    -webkit-animation-delay: 4.5s;
+    /*Fill mode*/
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  .code-text p:nth-child(5) {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    /*Animation*/
+    animation: type 1s steps(500, end);
+    -webkit-animation: type 1s steps(500, end);
+    -moz-animation: type 1s steps(500, end);
+    -o-animation: type 1s steps(500, end);
+    /*Delay*/
+    animation-delay: 6.4s;
+    -webkit-animation-delay: 6.4s;
+    /*Fill mode*/
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .blink {
+    animation: blink 1s infinite;
+    -webkit-animation: blink 1s infinite;
+    -moz-animation: blink 0.5s infinite;
+    -o-animation: blink 0.5s infinite;
+  }
+  
+  @keyframes blink {
+    to {
+      opacity: 0;
+    }
+  }
+
+  @keyframes type {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
